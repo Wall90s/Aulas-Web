@@ -38,4 +38,4 @@ Subir arquivos para o Github
    - git push
    - Caso seja a primeira será necessário executar o comando
       - git push --set-upstream origin master
-   - Logar na conta git do repositório
+      - Logar na conta git do repositório
