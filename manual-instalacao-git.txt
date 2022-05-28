@@ -1,0 +1,41 @@
+Como instalar o git bash
+ - Baixar o git bash https://git-scm.com/downloads
+ - Abra o instalador do git
+ - Deixar habilitado as opções de "git bash here" e "git gui" durante a instalação
+
+Fazer login no Github (ou criar uma nova conta)
+ - github.com/login
+
+Configurar o git bash
+ - Configurar nome de usuário
+    - git config --global user.name "nomeDeUsuarioDoGithub"
+ - Configurar e-mail de usuário
+    - git config --global user.email "email@doGithub.com"
+
+Criar repositório no Github
+ - Na parte superior do lado do site, clique no símbolo "+"
+ - Selecione a opção "New repository"
+ - Marque as escolhas necessárias
+ - No final da página clique em "Create repository"
+
+Criar .git 
+ - Abra o git bash utilizando o "git bash here" na pasta 
+ - Execute o comando "git init" para criar a pasta .git
+
+Referenciar repositório remoto no repositório local
+ - git remote add origin linkDoRepositorioNoGithub
+
+Subir arquivos para o Github
+ - Verificar status dos arquivos/pastas
+   - git status
+ - Preparar arquivo para subir no Github
+   - git add nomeDaPastaArquivo
+ - Preparar todos os arquivos para subir
+   - git add .
+ - Adicionar mensagem para evidenciar o commit
+   - git commit -m "Mensagem do commit"
+ - Enviar os arquivos para o acesso remoto
+   - git push
+   - Caso seja a primeira será necessário executar o comando
+      - git push --set-upstream origin master
+   - Logar na conta git do repositório
