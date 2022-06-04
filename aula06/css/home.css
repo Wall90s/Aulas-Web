@@ -9,17 +9,17 @@ body {
 .main p {
     margin-left: 8%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large;
+    font-size: 150%;
 }
 
 #nome {
-    color: #4472CA;
+    color: #0a369d;
 }
 
 #idade {
-    color: #5e7ce2;
+    color: #4472CA;
 }
 
 #telefone {
-    color: #92b4f4;
+    color: #5e7ce2;
 }
