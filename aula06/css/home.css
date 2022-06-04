@@ -1,0 +1,25 @@
+body {
+    background-color: #cfdee7;
+}
+
+.main {
+    display: flex;    
+}
+
+.main p {
+    margin-left: 8%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+#nome {
+    color: #4472CA;
+}
+
+#idade {
+    color: #5e7ce2;
+}
+
+#telefone {
+    color: #92b4f4;
+}
