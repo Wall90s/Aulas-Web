@@ -1,0 +1,21 @@
+.menu {
+    background-color: turquoise;
+    height: 3rem;
+}
+
+.menu ul{
+    margin: 0px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10%;
+    font-size: 1.8rem;
+}
+
+.menu a:hover{
+    color: orange;
+    transition-timing-function: ease-in-out;
+    transition-duration: 250ms;
+}
